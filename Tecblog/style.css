@@ -13,9 +13,10 @@ body {
 /*LAYOUT*/
 
 #area-cabecalho {
-    background: #f7b600;
+    background: #1D4ED8;
     padding: 15px;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 #area-logo,
@@ -49,6 +50,14 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.postagem:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .15);
 }
 
 .postagem-lateral {
@@ -75,11 +84,12 @@ body {
 #area-cabecalho a:hover {
     background-color: #fff;
     border-radius: 8px;
-    color: #f7b600;
+    color: #1D4ED8;
+    transition: all 0.3s ease;
 }
 
 a {
-    color: #f7b600;
+    color: #2563eb;
 
 }
 
@@ -91,7 +101,7 @@ h1 {
 }
 
 h2 {
-    color: #f7b600;
+    color: #1F2937;
 }
 
 h3 {
